@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app demonstration
 
-## Available Scripts
+Overview
+In order to get a better impression of your technical skills, we would like to offer
+you this coding assignment.
+Your solution might become the basis for a deeper discussion with the
+engineering team at the final stage of the interviewing process.
+We think a good solution could be found within approximately 6 hours. That said,
+we will expect to receive it within 3 days.
+Guidelines
+● Document your code as needed
+● Use Git features that you see fit (source code link)
+Task Details
+Create System For User management.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Provided the following JSON response from an API endpoint:
+  [
+  {
+  " name ":”ahmed”,
+  " id ": 1 ,
+  " email ": "a@test.com" ,
+  " phone ": 4353453543,
+  “Status” :”active”
+  } ,
+  {
+  " name ":”omar”,
+  " id ": 2 ,
+  " email ": "a@test.com" ,
+  " phone ": 372636722,
+  “Status” :”active”
+  } ,
+  {
+  " name ":”ali”,
+  " id ": 3 ,
+  " email ": "c@test.com" ,
+  " phone ": 82736,
+  “Status” :”soft_deleted”
+  } , ]
+  Task 1 : User Crud Operations
+- Build a users list page with the following details:
+  ---> each user has data like : name,phone,mail,and status(active,soft_deleted)
+  ---> listing page must have pagination , sorting and filtration.
+- Add / edit with validation error messages(required,wrong data)
+- delete user
+  Task 2: Localization (ar,en)
+  Task 3:Authentication (login with dummy data)
+- The system has 2 types of users
+  --->admin : can view or control all system
+  --->basic user : can view only listing (without delete or edit)
+  Task 4: Notification Messages with success & failure for all actions
+  Task 5: Ui Responsive
