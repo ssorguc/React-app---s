@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 
 class EditUser extends Component {
-  state = { user: this.props.user };
+  state = { user: {} };
+  constructor(props) {
+    super(props);
+    this.state = {
+      user: this.props.user
+    };
+  }
   onNameChange(value) {
     const user = this.state.user;
     user.name = value;

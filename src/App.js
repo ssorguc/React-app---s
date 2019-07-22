@@ -2,10 +2,14 @@ import React, { Component } from "react";
 import NavBar from "./components/navbar";
 
 class App extends Component {
+  state = {
+    currentUser: {}
+  };
+
   render() {
     return (
       <React.Fragment>
-        <NavBar />
+        <NavBar user={currentUser} />
       </React.Fragment>
     );
   }

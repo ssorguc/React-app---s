@@ -1,5 +1,11 @@
 React app demonstration
 
+- File organisation: Component folder (users, navbar, editUser, login react components and json data js files as local data feeder)
+- In case we get the data from a real WEB API use UsersAPI component and update the neccessery API url
+- Havent completed authentication, authorisation and validation, and CRUD operations need some fixes
+
+Task definition:
+
 Overview
 In order to get a better impression of your technical skills, we would like to offer
 you this coding assignment.
